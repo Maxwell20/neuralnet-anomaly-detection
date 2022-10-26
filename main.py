@@ -9,6 +9,9 @@ from tensorflow.keras.layers import Activation, BatchNormalization, Dense, Flatt
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.utils import get_custom_objects
+from sklearn.model_selection import train_test_split as train_test_split
+from sklearn.datasets import make_blobs
+from matplotlib import pyplot as plt
 
 def generate_data():
   # Generate synthetic data
